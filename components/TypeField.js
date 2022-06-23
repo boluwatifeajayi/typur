@@ -18,7 +18,7 @@ export default function TypeField(props){
           />
         </div>
         {props.status != 'started' && (
-        <button classNameName="btn btn-dark w-100 mt-3" onClick={props.start}>Begin Typing</button>
+        <button className="btn btn-dark w-100 mt-3" onClick={props.start}>Begin Typing</button>
         )}  
     </div>
 
