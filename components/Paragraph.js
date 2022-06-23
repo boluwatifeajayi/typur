@@ -10,7 +10,7 @@ export default function TypeField(props){
     {props.status === 'started' && (
         <div className="card mt-3">
         <div className="card-body">
-        <h5 class="card-title">Type these</h5>
+        <h5 className="card-title">Type these</h5>
           <p className="card-text">
           {props.words.map((word, i) => (
                   <span key={i}>
